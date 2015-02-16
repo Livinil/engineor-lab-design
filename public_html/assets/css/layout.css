@@ -1,0 +1,53 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14-Feb-2015, 16:19:59
+    Author     : aline
+*/
+body {
+  margin: 0;
+  background-color: #f6f6f6;
+}
+header {
+  height: 100px;
+  text-align: center;
+  padding-top: 2%;
+  margin-bottom: 3%;
+}
+header img {
+  height: 100%;
+}
+.home {
+  margin: auto;
+  width: 80%;
+}
+.home h1 {
+  margin-bottom: 2%;
+}
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.card-container section {
+  width: 33.33%;
+  transition: box-shadow 0.5s ease;
+  -webkit-transition: box-shadow 0.5s ease;
+  -webkit-backface-visibility: hidden;
+  -moz-transition: box-shadow 0.5s ease;
+  -o-transition: box-shadow 0.5s ease;
+}
+.card-container section h2 {
+  text-align: center;
+}
+.card-container section p {
+  padding: 5%;
+}
+.card-container section:nth-child(odd) {
+  background-color: #fdfdfd;
+}
+/*# sourceMappingURL=layout.css.map */
